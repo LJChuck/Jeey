@@ -1,0 +1,273 @@
+
+body {
+  background-image: url(../pictures/back6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: pulse 10s infinite;
+  animation: pulse 10s infinite;
+  z-index: 1;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-gap: 5px;
+}
+.logo2{
+ width: 12vw;
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin: 20px;
+  text-align: center;
+  font-family: Broadway;
+  font-size: 30px;
+}
+.grisha {
+  background-image: url(../pictures/title3.png );
+  background-position: center-left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 135px;
+  margin-top: 45px;
+}
+a{
+  text-decoration:none;
+  text-align: center;
+  color: #D0FFFF;
+}
+a:hover {
+  text-decoration:none;
+  color: #B0FFFF;
+}
+
+.slideshow {
+  border: 2px black solid;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.slide1 {
+  background-image: url(../pictures/slide1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: grade10 20s linear infinite;
+}
+.slide2 {
+  background-image: url(../pictures/slide2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: grade10 20s linear infinite 5s;
+}
+.slide3 {
+  background-image: url(../pictures/slide3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: grade10 20s linear infinite 10s;
+}
+.slide4 {
+  background-image: url(../pictures/slide4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: grade10 20s linear infinite 15s;
+}
+.slide5 {
+  background-image: url(../pictures/slide5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: grade10 20s linear infinite 20s;
+}
+@keyframes grade10 {
+  0%{
+	  opacity: 0;
+	  transform: scale(1);
+  }
+10%{
+	  opacity: 1;
+  }
+15%{
+	  opacity: 1;
+  }
+20%{
+	  opacity: 1;
+  }
+25%{
+	  opacity: 1;
+  }
+30%{
+	  transform: scale(1.2);
+	  opacity: 0;
+  }
+}
+img.booktitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 70vh;
+  margin: 0px;
+}
+.box1{
+  background-image: url(../pictures/bk1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box1:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box2{
+  background-image: url(../pictures/bk2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box2:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box3{
+  background-image: url(../pictures/bk3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box3:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box4{
+  background-image: url(../pictures/bk4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box4:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box5{
+  background-image: url(../pictures/bk5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box5:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+img.booktitle2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 70vh;
+  margin: 0px;
+}
+.box6{
+  background-image: url(../pictures/bk6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box6:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box7{
+  background-image: url(../pictures/bk7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box7:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+
+.box8{
+  background-image: url(../pictures/bk8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box8:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+img.booktitle3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  height: 100vh;
+}
+.left2 {
+  background-image: url(../pictures/warcross1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 150px;
+  border-radius: 25px;
+}
+.right2 {
+  background-image: url(../pictures/warcross2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 150px;
+  border-radius: 25px;
+
+}
+.left2:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}
+.right2:hover {
+  -webkit-filter: blur(5px) brightness(95%);
+  transition: all .2s ease-out
+}

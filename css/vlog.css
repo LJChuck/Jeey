@@ -1,0 +1,96 @@
+
+body {
+  background-image: url(../pictures/back6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: pulse 10s infinite;
+  animation: pulse 10s infinite;
+  z-index: 1;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-gap: 5px;
+}
+.logo2{
+ width: 12vw;
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin: 20px;
+  text-align: center;
+  font-family: Broadway;
+  font-size: 30px;
+}
+.grisha {
+  background-image: url(../pictures/title3.png );
+  background-position: center-left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 135px;
+  margin-top: 45px;
+}
+a{
+  text-decoration:none;
+  text-align: center;
+  color: #D0FFFF;
+}
+a:hover {
+  text-decoration:none;
+  color: #B0FFFF;
+}
+.container {
+  height: 10vh;
+}
+#h1 {
+  border-radius: 25px;
+  border: 2px yellow solid;
+    text-align: center;
+    color: yellow;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.vlog {
+  height: 30vh;
+}
+.big {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+}
+.left {
+  border: 2px yellow solid;
+  border-radius: 10px;
+    height: 60vh;
+}
+.right {
+  border: 2px yellow solid;
+  border-radius: 10px;
+    height: 60vh;
+}
+#babs {
+  text-align: center;
+  color: yellow;
+  border: 3px yellow solid;
+  margin: 0 400px 0 400px;
+}
+.babs {
+  height: 10vh;
+
+}
+.vlog1 {
+  height: 60vh;
+}
+.video {
+  border: 2px yellow solid;
+  height: 60vh;
+  margin: 60px;
+}
